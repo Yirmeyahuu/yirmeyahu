@@ -1,0 +1,246 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 150px;
+}
+
+#navbar__logo {
+  background: #C9EEFF;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-style: oblique;
+  letter-spacing: 20px;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__links {
+  color: #C9EEFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  text-decoration: none;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.navbar__links:hover {
+  color: #4E6E81;
+  transition: all 0.3s ease;
+}
+
+/*End of Navbar Section*/
+
+
+/*Main Section*/
+.main{
+  background-image: url(images/backgorund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 312px 0;
+  margin-top: -200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  height: 115vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 977px;
+  background: #191c1f;
+  mix-blend-mode:hard-light;
+  opacity: 100;
+}
+
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  height: 100%;
+  padding: 30px;
+  place-content: center;
+  align-items: center;
+  
+}
+
+
+.projects__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 150px;
+}
+
+.projects__card:nth-child(1) {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FADA9D;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+
+.projects__card:nth-child(2) {
+  margin: 10px;
+  height: 425px;
+  width: 330px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FADA9D;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+.projects__card:nth-child(3) {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FADA9D;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+
+.projects__card:nth-child(4) {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+
+.projects__card:nth-child(5) {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+
+.projects__card:nth-child(6) {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  transition: 0.3s ease-in;
+  z-index: 999;
+}
+
+.projects__card img{
+  border-radius: 20px;
+}
+
+.projects__card:hover {
+  cursor: pointer;
+}
+
+.projects__card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main Section*/
+
